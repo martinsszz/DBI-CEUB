@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F2BED792-7E7F-A980-201E-FACC1DD6CE14" mainViewID="1158ABFE-AABC-F644-1765-D40BE8ACDA92">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 22:53:33 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

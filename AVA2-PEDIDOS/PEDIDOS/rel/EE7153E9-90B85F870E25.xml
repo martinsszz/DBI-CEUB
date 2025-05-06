@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="EE7153E9-F8E9-CA76-89ED-90B85F870E25" mainViewID="D0A41C66-5D45-0ED1-AE67-C34CB8E036A9">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 22:53:36 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

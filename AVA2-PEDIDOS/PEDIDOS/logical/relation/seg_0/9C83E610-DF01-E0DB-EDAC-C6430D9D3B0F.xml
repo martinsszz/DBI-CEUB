@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="9C83E610-DF01-E0DB-EDAC-C6430D9D3B0F">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-06 00:03:26 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<sourcePk>0515C915-7523-16AB-CE19-53CF3B70F4D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>567F75EB-E095-414E-0BF7-BC2A07D7D249</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC5B33A4-DB19-3EA6-4497-8A704FAE0ED2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

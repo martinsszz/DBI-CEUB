@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46BFAF41-1779-773B-0D62-29C830B1FBF6" name="itensPedido">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:33:02 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProduto" id="EE09D90E-6A9C-49E6-D7DE-B4018FF6CD79">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:36:23 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descProduto" id="E878F0A7-5F3D-C36A-1337-E3CD65218C65">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:33:13 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantPedido" id="A0E8CA5B-E7B6-7B93-6037-1690C52A81C8">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:33:38 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUni" id="330B9B88-0B7D-07B4-0E15-D76BF2BB7737">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:34:17 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100000000</dataTypeSize>
+<ownDataTypeParameters>100000000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="4B5F0789-E3FE-ECA9-F4A8-D13D5EE66F8C">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:54:27 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D811089E-728F-2F93-5E00-F170E05018C5" name="itensPedido PK">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:45:15 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE09D90E-6A9C-49E6-D7DE-B4018FF6CD79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

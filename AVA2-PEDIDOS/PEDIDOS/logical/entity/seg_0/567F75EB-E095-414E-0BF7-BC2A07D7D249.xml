@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="567F75EB-E095-414E-0BF7-BC2A07D7D249" name="vendedor">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:12:30 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="3F6EA040-3494-9579-0827-69C2D1E7A897">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:30:12 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="A0680791-0EA2-0235-12CA-60333F0EA10F">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:28:50 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0515C915-7523-16AB-CE19-53CF3B70F4D1" name="vendedor PK">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:42:32 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F6EA040-3494-9579-0827-69C2D1E7A897</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

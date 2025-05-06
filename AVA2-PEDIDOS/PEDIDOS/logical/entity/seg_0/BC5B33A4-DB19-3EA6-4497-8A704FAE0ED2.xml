@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC5B33A4-DB19-3EA6-4497-8A704FAE0ED2" name="pedido">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:30:27 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProduto" id="AF7395E2-744F-B201-FB0D-33AEC703E0CE">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:30:39 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="B897C019-278D-5D72-7FA9-0AE8EAED9779">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:57:30 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="AC265ECC-E53C-E988-887D-B380A6BAA56D">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-06 00:03:26 UTC</createdTime>
+<generatorID>9C83E610-DF01-E0DB-EDAC-C6430D9D3B0F</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<referedAttribute>3F6EA040-3494-9579-0827-69C2D1E7A897</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="FB766E27-B68B-9621-7F94-C8527AFEDC4A">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-06 00:05:34 UTC</createdTime>
+<generatorID>1BEB443B-F1A2-A52A-DD59-EEE0A0BC83FA</generatorID>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<referedAttribute>60B477FE-6F89-66C4-E9E9-99901AB50656</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="461EE5D4-94AF-1354-CFD8-F741442E3C2B" name="pedido PK">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 23:44:34 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="EE7153E9-F8E9-CA76-89ED-90B85F870E25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF7395E2-744F-B201-FB0D-33AEC703E0CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

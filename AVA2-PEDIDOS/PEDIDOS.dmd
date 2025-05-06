@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PEDIDOS" id="25D50747-73D6-F832-54D0-1ECE31C51E35" version="3.5">
+<createdBy>heitor.crateus</createdBy>
+<createdTime>2025-05-05 22:53:33 UTC</createdTime>
+<ownerDesignName>PEDIDOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>25D50747-73D6-F832-54D0-1ECE31C51E35</designId>
+</OSDM_Design>
