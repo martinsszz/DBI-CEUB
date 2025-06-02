@@ -5,7 +5,7 @@
  
  [X] - DBI-Avaliação 2-02 - Pedidos
  
- [X] - DBI-Avaliação 2-03 - Cadastro de associado titular e dependentes
+ [] - DBI-Avaliação 2-03 - Cadastro de associado titular e dependentes <-- Faltou a pasta deste projeto!
  
 Nomes de alguns projetos estão fora do padrão solicitado.
 
